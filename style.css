@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(58, 185, 228);
+  }
+  
+  .line{
+    display: inline;
+  }
+
+  .button{
+    border-radius: 8px;
+    width: 70px;
+    height:60px;
+  }
+  
+  .secondlayer{
+    border: 7px solid;
+    border-style: groove;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+  }
+  
+  .input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 50px;
+  }
+  
+  .result{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+  }

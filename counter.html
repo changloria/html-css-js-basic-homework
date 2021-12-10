@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Counter Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+      
+  <body>
+    <div class="main">
+      <div class="secondlayer">
+        <div class="input">
+          <button class="line input button" type="button" onclick="plusNum(first)">+</button>
+          <p class="line input" id="first">0</p>
+          <button class="line input button" type="button" onclick="minusNum(first)">-</button>
+        </div>
+        <div class="input">
+          <button class="line input button" type="button" onclick="plusNum(second)">+</button>
+          <p class="line input" id="second">0</p>
+          <button class="line input button" type="button" onclick="minusNum(second)">-</button>
+        </div>
+      </div>
+      <div class="result">
+        <div class="line"> sum: <div class="line" id="answer">0</div></div>
+    </div>
+    </div>
+  </body>
+  <script src="counter.js"></script>
+</html>
