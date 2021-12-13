@@ -1,33 +1,42 @@
 body {
     background-color: rgb(58, 185, 228);
-  }
-  
-  .line{
-    display: inline;
-  }
+}
 
-  .button{
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    width: 2em;
+}
+
+.line {
+    display: inline-block;
+}
+
+.button {
     border-radius: 8px;
     width: 70px;
-    height:60px;
-  }
-  
-  .secondlayer{
+    height: 60px;
+}
+
+.secondlayer {
     border: 7px solid;
     border-style: groove;
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
-  }
-  
-  .input{
+}
+
+.input {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 50px;
-  }
-  
-  .result{
+}
+
+.result {
     text-align: center;
     font-size: 50px;
     margin-top: 10px;
-  }
+}
