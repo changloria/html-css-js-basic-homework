@@ -1,19 +1,11 @@
 function plusNum(numPosition) {
-    if (numPosition.id == "first") {
-        var number = document.getElementById("first");
-    } else {
-        var number = document.getElementById("second");
-    }
+    var number = document.getElementById(numPosition);
     number.innerHTML = parseInt(number.innerHTML) + 1;
     updateSumNumbers();
 }
 
 function minusNum(numPosition) {
-    if (numPosition.id == "first") {
-        var number = document.getElementById("first");
-    } else {
-        var number = document.getElementById("second");
-    }
+    var number = document.getElementById(numPosition);
     number.innerHTML = parseInt(number.innerHTML) - 1;
     updateSumNumbers();
 }
